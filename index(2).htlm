@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Staying Alive</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #c0392b;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header img {
+      width: 220px;
+      display: block;
+      margin: 0 auto 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #c0392b;
+      font-size: 1.8rem;
+      border-bottom: 2px solid #c0392b;
+      padding-bottom: 8px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    /* Équipe */
+    .team {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      margin-top: 20px;
+    }
+
+    .member {
+      background: #f5f5f5;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    .member h3 {
+      margin: 10px 0 8px;
+      font-size: 1.15rem;
+      color: #c0392b;
+    }
+
+    .member a {
+      display: inline-block;
+      margin-top: 8px;
+      text-decoration: none;
+      color: #222;
+      font-size: 0.9rem;
+    }
+
+    .member a:hover {
+      color: #c0392b;
+    }
+
+    .icon-mail::before {
+      content: "✉️ ";
+    }
+
+    footer {
+      background: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo Staying Alive">
+    <h1>Détecteur d’arrêt cardiaque portable</h1>
+  </header>
+
+  <main>
+    <section id="probleme">
+      <h2>Problème</h2>
+      <p>
+        L’arrêt cardiaque soudain est une des premières causes de mortalité. 
+        La survie dépend d’une intervention dans les 6 premières minutes, mais 
+        trop souvent les témoins ne savent pas quoi faire ou n’osent pas intervenir.
+      </p>
+    </section>
+
+    <section id="solution">
+      <h2>Notre solution</h2>
+      <p>
+        <strong>Staying Alive</strong> est un dispositif portable innovant équipé de capteurs (rythme cardiaque, gyroscope, sudation).  
+        Lorsqu’un arrêt cardiaque est détecté, il déclenche automatiquement une chaîne d’actions vitales :
+      </p>
+      <ul>
+        <li>Appel aux services d’urgence</li>
+        <li>Signal sonore et lumineux pour alerter les passants</li>
+        <li>Signal sonore rythmique pour guider le massage cardiaque</li>
+      </ul>
+      <p>
+        Ce système réduit le délai de prise en charge et augmente significativement les chances de survie.
+      </p>
+    </section>
+
+    <section id="objectifs">
+      <h2>Objectifs</h2>
+      <ul>
+        <li>Sauver des vies grâce à une intervention plus rapide</li>
+        <li>Sensibiliser la population aux gestes de premiers secours</li>
+        <li>Créer de nouvelles opportunités dans la santé connectée</li>
+      </ul>
+    </section>
+
+    <section id="innovation">
+      <h2>Innovation</h2>
+      <p>
+        Contrairement aux montres connectées qui se limitent à détecter un problème, 
+        <strong>Staying Alive</strong> fournit une aide immédiate aux témoins.  
+        C’est une combinaison unique de détection, d’alerte et d’accompagnement en temps réel.
+      </p>
+    </section>
+
+    <section id="equipe">
+      <h2>Notre équipe</h2>
+      <div class="team">
+        <div class="member">
+          <h3>Farrel Tchagnirou</h3>
+          <a class="icon-mail" href="mailto:farrel.tchagnirou@etu.unistra.fr">Envoyer un mail</a>
+        </div>
+        <div class="member">
+          <h3>Timothé Spicacci</h3>
+          <a class="icon-mail" href="mailto:timothe.spicacci@etu.unistra.fr">Envoyer un mail</a>
+        </div>
+        <div class="member">
+          <h3>Chloé Belzung</h3>
+          <a class="icon-mail" href="mailto:chloe.belzung@etu.unistra.fr">Envoyer un mail</a>
+        </div>
+        <div class="member">
+          <h3>Laura Gehin</h3>
+          <a class="icon-mail" href="mailto:laura.gehin@etu.unistra.fr">Envoyer un mail</a>
+        </div>
+        <div class="member">
+          <h3>Baptiste Duthilleul</h3>
+          <a class="icon-mail" href="mailto:baptiste.duthilleul@etu.unistra.fr">Envoyer un mail</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Staying Alive - Projet étudiant - Université de Strasbourg
+  </footer>
+
+</body>
+</html>
